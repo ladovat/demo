@@ -1,0 +1,11 @@
+H2 client
+    - go to http://localhost:8080/h2-console
+
+Create React APP
+    - go to IntelliJ terminal
+    - go to C:\dev\projects\demo\src\main
+    - run cmd: npx create-react-app frontend
+    - link <https://reactjs.org/docs/create-a-new-react-app.html>
+
+React APP path
+    C:\dev\projects\demo\src\main\frontend
