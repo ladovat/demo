@@ -23,7 +23,7 @@ public class InMemoryStorage implements IPersonDao {
     public int delete(UUID id) {
         Optional<Person> personMaybe = get(id);
 
-        if (personMaybe.isEmpty()){
+        if (personMaybe.isPresent()){
             return 0;
         }
 
