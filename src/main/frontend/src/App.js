@@ -10,7 +10,7 @@ const ShowUsers = () => {
   const [userProfiles, setUserProfiles] = useState([]);
 
   const fetchUserProfiles = () => {
-    axios.get("http://localhost:8080/api/v1/person/get_all").then(res => {
+    axios.get("/api/v1/person/get_all").then(res => {
       console.log(res);
       setUserProfiles(res.data);
     });
@@ -35,7 +35,7 @@ const LabaTest = () => {
   const[persons, setPersons] = useState([]);
 
   const getPersons = () => {
-    const data = axios.get("http://localhost:8080/api/v1/person/get_all").then(res => {
+    const data = axios.get("/api/v1/person/get_all").then(res => {
       console.log(res)
     });
   };

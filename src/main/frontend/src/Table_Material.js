@@ -8,7 +8,7 @@ export const Table_Material = () => {
     const [errorMessages, setErrorMessages] = useState([]);
 
     useEffect(() => {
-        const customData2 = axios.get("http://localhost:8080/api/v1/person/get_all")
+        const customData2 = axios.get("/api/v1/person/get_all")
             .then(res => {
                 console.log(res.data);
                 setPersons(res.data);
@@ -31,7 +31,7 @@ export const Table_Material = () => {
     ]
 
     const handleRowAdd = (newData, resolve) => {
-        axios.post("http://localhost:8080/api/v1/person/add", newData)
+        axios.post("/api/v1/person/add", newData)
             .then(res => {
                 newData.id = res.data; // hack -> set ID from the response
                 let dataToAdd = [...persons];
@@ -42,7 +42,7 @@ export const Table_Material = () => {
     }
 
     const handleRowDelete = (oldData, resolve) => {
-        axios.delete("http://localhost:8080/api/v1/person/delete", { params: { id: oldData.id } })
+        axios.delete("/api/v1/person/delete", { params: { id: oldData.id } })
             .then(res => {
                 const dataDelete = [...persons];
                 const index = oldData.tableData.id;
@@ -53,7 +53,7 @@ export const Table_Material = () => {
     }
 
     const handleRowUpdate = (newData, oldData, resolve) => {
-        axios.put("http://localhost:8080/api/v1/person/update", newData)
+        axios.put("/api/v1/person/update", newData)
             .then(res => {
                 const dataUpdate = [...persons];
                 const index = oldData.tableData.id;
