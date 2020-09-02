@@ -1,5 +1,5 @@
-H2 client
-    - go to http://localhost:8080/h2-console
+H2 client CONSOLE
+    http://localhost:8080/h2-console
 
 Create React APP
     - go to IntelliJ terminal
@@ -9,3 +9,22 @@ Create React APP
 
 React APP path
     C:\dev\projects\demo\src\main\frontend
+
+React WEB:
+    https://material-ui.com/components/tables/
+    https://material-table.com/#/docs/get-started
+    table CRUD operations:  https://levelup.gitconnected.com/react-material-table-crud-operations-with-restful-api-data-ca1af738d3c5
+
+MySQL vs SQLite vs PostgreSQL
+    https://www.digitalocean.com/community/tutorials/sqlite-vs-mysql-vs-postgresql-a-comparison-of-relational-database-management-systems
+
+OTHERS:
+    https://www.youtube.com/watch?v=HuIjLEpu3BY
+    https://developer.okta.com/blog/2018/07/19/simple-crud-react-and-spring-boot
+    https://www.google.com/search?q=deploy+spring+boot+application&rlz=1C1GCEU_enCZ864CZ864&oq=deploy+spring+&aqs=chrome.1.69i57j35i39l2j0l5.5751j0j7&sourceid=chrome&ie=UTF-8
+    https://developer.okta.com/blog/2019/12/03/spring-boot-deploy-options
+    https://www.parkmycloud.com/blog/aws-vs-azure-vs-google-cloud-market-share/
+    https://www.google.com/search?q=spring+boot+where+to+deploy&rlz=1C1GCEU_enCZ864CZ864&oq=spring+boot+where+to+deploy&aqs=chrome..69i57j0l7.4967j0j7&sourceid=chrome&ie=UTF-8
+    https://docs.spring.io/spring-boot/docs/current/reference/html/deployment.html
+    https://www.youtube.com/watch?v=i-hoSg8iRG0
+    https://www.jetbrains.com/help/idea/your-first-spring-application.html#create-new-spring-boot-project
